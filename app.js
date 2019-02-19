@@ -1,6 +1,7 @@
 const express = require('express');
 const authRoute = require('./routes/auth-routes');
 const passportSetup = require('./config/passport-setup');
+const mongoDB = require('./config/mongo');
 
 const app = express();
 
